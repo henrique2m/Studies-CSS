@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css"/>
+        <title>
+            Flexbox
+        </title>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="content"> 
+                <nav>
+                    <ul>
+                        <li>
+                            <img src="https://api.adorable.io/avatars/10/icone-home" alt="Home"/>Home
+                        </li>
+                        <li>
+                            <img src="https://api.adorable.io/avatars/10/icone-notification" alt="Notifications"/> Notifications
+                        </li>
+                        <li>
+                            <img src="https://api.adorable.io/avatars/10/icone-massages" alt="Messages"/> Messages
+                        </li>
+                    </ul>
+                </nav>
+                <img  src="https://api.adorable.io/avatars/10/logo-twitter" class="logo"/>
+                <div class="side">
+                    <input type="text" placeholder="Search on Twitter"/>
+                    <img src="https://api.adorable.io/avatars/100/avatar" alt="Avatar"/>
+                    <button type="button">Tweet</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="banner">
+            <h1>
+                "Nunca conheceremos o  futuro porque sempre estaremos no presente."
+            </h1>
+        </div>
+
+        <div class="bar">
+            <div class="content">
+                <ul>
+                    <li class="active">
+                        <span>Tweets</span>
+                        <strong>100</strong>
+                    </li>
+                    <li>
+                        <span>Followings</span>
+                        <strong>700</strong>
+                    </li>
+                    <li>
+                        <span>Followers</span>
+                        <strong>600</strong>
+                    </li>
+                    <li>
+                        <span>Favorites</span>
+                        <strong>200</strong>
+                    </li>
+                </ul>
+
+                <div class="actions">
+                    <button> Follow </button>
+                    <ul>
+                        <li><img src="https://api.adorable.io/avatars/10/more" alt="More" /></li>
+                        <li><img src="https://api.adorable.io/avatars/10/more" alt="More" /></li>
+                        <li><img src="https://api.adorable.io/avatars/10/more" alt="More" /></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <div class="wrapper-content content">
+            <aside class="profile">
+                <img src="https://api.adorable.io/avatars/200/avatar" alt="Avatar"  class="avatar"/>
+                <h2>Henrique Moreira</h2>
+                <span>@henrique2m</span>
+                <p> "Só sei que nada sei..."</p>
+
+                <ul class="list">
+                    <li><img src="https://api.adorable.io/avatars/10/icone-place" alt="Place"/>Palmas</li>
+                    <li>
+                        <img src="https://api.adorable.io/avatars/10/icone-url" alt="url"/>
+                        <a href="https://www.instagram.com/henrique_moreira2">
+                            henrique2m
+                        </a>
+                    </li>
+                    <li><img src="https://api.adorable.io/avatars/10/icone-joined" alt="Joined"/> Ingressou em junho</li>
+                    <li><img src="https://api.adorable.io/avatars/10/icone-born" alt="Born"/>Nasceu em novembro de 1997</li>
+                </ul>
+                    <div class="widget">
+                        <div class="widget followers">
+                            <strong><img src="https://api.adorable.io/avatars/10/icone-followers" alt="followers" /> 100 followers that you know</strong>
+                            <ul> 
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers1" alt="followers1"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers2" alt="followers2"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers3" alt="followers3"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers4" alt="followers4"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers5" alt="followers5"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers6" alt="followers6"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers7" alt="followers7"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers8" alt="followers8"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers9" alt="followers9"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-followers10" alt="followers10"/></li>
+                            </ul>
+                        </div>
+
+                        <div class="widget images">
+                            <strong><img src="https://api.adorable.io/avatars/10/icone-images" alt="images" /> 100 images that you know</strong>
+                            <ul> 
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images1" alt="images1"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images2" alt="images2"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images3" alt="images3"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images4" alt="images4"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images5" alt="images5"/></li>
+                                <li><img src="https://api.adorable.io/avatars/100/icone-images6" alt="images6"/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </aside>
+            <section class="timeline"> 
+                <nav>
+                    <a href="#" class="active">Tweets</a>
+                    <a href="#">Tweets and replies</a>
+                    <a href="#">Medias</a>
+                </nav>
+
+                <ul class="tweets">
+                    <li>
+                        <img src="https://api.adorable.io/avatars/100/avatar" alt="Avatar"/> 
+                        <div class="info">
+                            <strong> henrique2m <span>@exhibit</span></strong>
+                            <p>"Boa sorte é o que acontece quando a oportunidade encontra o planejamento." -Thomas Edison </p>
+                            <div class="actions">
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/comments" alt="comments"/> 3</a>
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/retweet" alt="retweet"/> 2</a>
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/like" alt="like"/> 1</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://api.adorable.io/avatars/100/avatar" alt="Avatar"/> 
+                        <div class="info">
+                            <strong> henrique2m <span>@exhibit</span></strong>
+                            <p>"É bom celebrar o sucesso, mas é mais importante escutar as lições do fracasso" -Bill Gates </p>
+                            <div class="actions">
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/comments" alt="comments"/>3</a>
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/retweet" alt="retweet"/>2</a>
+                                <a href="#"><img src="https://api.adorable.io/avatars/100/like" alt="like"/> 5</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <aside class="widgets">
+                <div class="widget follow">
+                    <div class="title">
+                        <strong>Who to follow</strong>
+                        <a href="#">Refresh</a>
+                        <a href="#">View all</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="profile">
+                                <img src="https://api.adorable.io/avatars/100/avata" alt="Avatar"/>
+                                <div class="info">
+                                    <strong> Spade <span>@spade_be</span></strong>
+                                    <button>Follow</button>
+                                    
+                                </div>
+                            </div>
+                            <a href="#">x</a>
+                        </li>
+                        <li>
+                            <div class="profile">
+                                <img src="https://api.adorable.io/avatars/100/avata" alt="Avatar"/>
+                                <div class="info">
+                                    <strong> Spade <span>@spade_be</span></strong>
+                                    <button>Follow</button>
+                                    
+                                </div>
+                            </div>
+                            <a href="#">x</a>
+                        </li>
+                        <li>
+                            <div class="profile">
+                                <img src="https://api.adorable.io/avatars/100/avata" alt="Avatar"/>
+                                <div class="info">
+                                    <strong> Spade <span>@spade_be</span></strong>
+                                    <button>Follow</button>
+                                    
+                                </div>
+                            </div>
+                            <a href="#">x</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </body>
+</html>
